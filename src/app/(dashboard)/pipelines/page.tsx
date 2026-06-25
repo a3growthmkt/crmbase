@@ -223,7 +223,7 @@ export default function PipelinesPage() {
         .update({ stage_id: newStageId })
         .eq("id", dealId);
       if (error) {
-        toast.error("Failed to move deal");
+        toast.error("Falha ao mover negócio");
         refreshDeals();
       }
     },
