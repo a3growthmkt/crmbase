@@ -465,8 +465,8 @@ export function WhatsAppConfig() {
                   }
                 >
                   {isRegistered
-                    ? 'Registered — Meta will deliver events to wacrm'
-                    : 'Not registered — Meta will not deliver events'}
+                    ? 'Registrado — A Meta entregará eventos para o A3 CRM'
+                    : 'Não registrado — A Meta não entregará eventos'}
                 </AlertTitle>
               </div>
               <Button
@@ -646,7 +646,7 @@ export function WhatsAppConfig() {
                   Meta Business Manager → WhatsApp Accounts → Phone
                   Numbers → Two-step verification
                 </strong>
-                , then paste it here so wacrm can subscribe the number —
+                , depois cole aqui para o A3 CRM assinar o número —
                 otherwise Meta routes inbound events to whichever app
                 last claimed it (the symptom that hits second numbers
                 under a shared WABA).{' '}
